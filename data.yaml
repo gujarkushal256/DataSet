@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 35
+names: ['-', 'Audi', 'Chrysler', 'Citroen', 'GMC', 'Honda', 'Hyundai', 'Infiniti', 'Mazda', 'Mercedes', 'Mercury', 'Mitsubishi', 'Nissan', 'Renault', 'Toyota', 'Volkswagen', 'acura', 'bmw', 'cadillac', 'chevrolet', 'dodge', 'ford', 'jeep', 'kia', 'lexus', 'lincoln', 'mini', 'no class', 'porsche', 'ram', 'range rover', 'skoda', 'subaru', 'suzuki', 'volvo']
+
+roboflow:
+  workspace: project
+  project: car-logos-detection-px4wn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/car-logos-detection-px4wn/dataset/1
